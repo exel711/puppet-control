@@ -20,7 +20,6 @@ mod "puppetlabs/docker",
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
-
 mod 'ssh',
   :git => 'https://github.com/exel711/puppet-ssh.git',
   :ref => 'master'
