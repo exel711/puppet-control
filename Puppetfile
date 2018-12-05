@@ -23,19 +23,19 @@ mod "garethr/docker",         '5.3.0'
 
 mod 'ssh',
   :git => 'https://github.com/exel711/puppet-ssh.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'ntp',
   :git => 'https://github.com/exel711/puppet-ntp.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'role',
   :git => 'https://github.com/exel711/puppet-role.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'profile',
   :git => 'https://github.com/exel711/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'development'
 
 #mod 'nginx',
 #  :git => 'git@github.com:rivethead42/puppet-nginx.git',
