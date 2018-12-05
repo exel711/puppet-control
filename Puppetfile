@@ -23,11 +23,11 @@ mod "garethr/docker",         '5.3.0'
 
 mod 'ssh',
   :git => 'https://github.com/exel711/puppet-ssh.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/exel711/puppet-ntp.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'role',
   :git => 'https://github.com/exel711/puppet-role.git',
