@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'puppet-agent-test.kyiv.epam.com': {
+    port: 80,
+    docroot: '/var/www/puppet-agent-test',
+ },
+ 'puppet-agent-testb.kyiv.epam.com': {
+    port: 80,
+    docroot: '/var/www/puppet-agent-testb',
+ },
+}
