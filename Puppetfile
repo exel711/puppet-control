@@ -30,11 +30,11 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/exel711/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'https://github.com/exel711/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
 
 #mod 'nginx',
 #  :git => 'git@github.com:rivethead42/puppet-nginx.git',
