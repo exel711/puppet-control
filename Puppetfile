@@ -36,6 +36,6 @@ mod 'profile',
   :git => 'https://github.com/exel711/puppet-profile.git',
   :ref => 'master'
 
-#mod 'nginx',
-#  :git => 'git@github.com:rivethead42/puppet-nginx.git',
-#  :ref => 'master'
+mod 'nginx',
+  :git => 'https://github.com/exel711/puppet-nginx.git',
+  :ref => 'master'
