@@ -25,29 +25,29 @@ File { backup => false }
 # specified in the console for that node.
 
 
-#$test_top_scope = "Top Scope"                                                                                         │
-                                                                                                                      │
-node 'puppet-agent-test-ubuntu.kyiv.epam.com'{                                                                        │
- notify { "This matches a node name!!!!!!!!!!!!! !": }                                                                │
- #class { 'java': }                                                                                                    │
-}                                                                                                                     │
-node /^puppet-agent-test-ubuntu/ {                                                                                    │
-  notify { "This is a node def with regX !": }                                                                        │
+#$test_top_scope = "Top Scope"
+
+node 'puppet-agent-test-ubuntu.kyiv.epam.com'{
+ notify { "This matches a node name!!!!!!!!!!!!! !": }
+ #class { 'java': }
+}
+node /^puppet-agent-test-ubuntu/ {
+  notify { "This is a node def with regX !": }
 }
 node 'puppet-agent-test.kyiv.epam.com' {
 }│
-node default {                                                                                                        │
- # $test_top_scope = "This node scope"                                                                                 │
- # $node_scope_var = "Node scop"                                                                                       │
- # notify {"test_scope":                                                                                               │
- #  message => "This is a top scope var: ${test_top_scope}"                                                           │
- # }                                                                                                                   │
- # notify { "This is default node !": }                                                                                │
- # class { 'java': }                                                                                                   │
-#  include ntp                                                                                                        │
-  # This is where you can declare classes for all nodes.                                                              │
-  # Example:                                                                                                          │
-  #   class { 'my_class': }                                                                                           │
+node default {
+ # $test_top_scope = "This node scope"
+ # $node_scope_var = "Node scop"
+ # notify {"test_scope":
+ #  message => "This is a top scope var: ${test_top_scope}"
+  # }
+ # notify { "This is default node !": }
+ # class { 'java': }
+#  include ntp
+  # This is where you can declare classes for all nodes.
+  # Example:
+  #   class { 'my_class': }
 }
 
 #node 'tthomsen1.mylabserver.com' {
