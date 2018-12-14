@@ -35,7 +35,7 @@ node /^puppet-agent-test-ubuntu/ {
   notify { "This is a node def with regX !": }
 }
 node 'puppet-agent-test.kyiv.epam.com' {
-}│
+}
 node default {
  # $test_top_scope = "This node scope"
  # $node_scope_var = "Node scop"
