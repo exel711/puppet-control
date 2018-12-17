@@ -27,16 +27,16 @@ File { backup => false }
 
 #$test_top_scope = "Top Scope"
 
-#node 'puppet-agent-test-ubuntu.kyiv.epam.com'{
-# notify { "This matches a node name!!!!!!!!!!!!! !": }
- #class { 'java': }
-#}
+node 'puppet-agent-test-ubuntu.kyiv.epam.com'{
+ notify { "This matches a node name!!!!!!!!!!!!! !": }
+ class { 'java': }
+}
 #node /^puppet-agent-test-ubuntu/ {
 #  notify { "This is a node def with regX !": }
 #}
-node 'puppet-agent-test.kyiv.epam.com' {
-  notify { "This is a node is CentOS node!": }
-}
+#node 'puppet-agent-test.kyiv.epam.com' {
+#  notify { "This is a node is CentOS node!": }
+#}
 node default {
   hiera_include('classes')
  # $test_top_scope = "This node scope"
